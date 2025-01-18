@@ -1,4 +1,3 @@
-﻿// Screen Sound
 string mensagemDeBoasVindas = "Boas vindas ao Screen Sound";
 
 Dictionary<string, List<int>> bandasRegistradas = new Dictionary<string, List<int>>();
@@ -91,10 +90,6 @@ void ExibirTituloDaOpcao(string titulo)
  
 void AvaliarUmaBanda()
     {
-        //digitar banda que deseja avaliar
-        // se a banda existir no dicionario >> atribuir nota
-        // senão >> voltar ao menu principal
-
         Console.Clear();
         ExibirTituloDaOpcao("Avaliar banda");
         Console.Write("Digite o nome da banda que deseja avaliar: ");
